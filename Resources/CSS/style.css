@@ -48,7 +48,7 @@ header ul li {
 header ul li a:link,
 header ul li a:visited {
     text-decoration: none;
-    color: white;
+    color: #e67e22;
     font-size: 90%;
     border-bottom: 2px solid transparent;
     padding: 8px 0px;
