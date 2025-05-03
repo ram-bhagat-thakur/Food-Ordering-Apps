@@ -65,14 +65,18 @@
       flex-direction: column;
       width: 100%;
       text-align: center;
-      position: ;
+      position: fixed;
       margin-top: 0px;
       margin-right: 20px;
+      z-index: 2;
     }
   
     .menu-toggle {
-      display: flex;
-      float: right;
+        display: inline-block;
+        position: fixed;
+        color: #e67e22;
+        margin-left: 60%;
+        z-index: 2;
     }
   
     .menu.active {
