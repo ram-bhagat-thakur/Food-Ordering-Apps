@@ -1,0 +1,84 @@
+
+@media(max-width:780px){   
+    header ul{
+        display: none;
+    }
+    body{
+        font-size: 70%;
+    }
+    .mobile-mockup{
+        margin-top: 40px;
+    }
+    .cities{
+        font-size: 60%;
+    }
+    .cities ion-icon {
+        margin-right: 0px;
+        font-size: 120%;
+    }
+    .download {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .steps1{
+        font-size: 120%;
+        width: 100%;
+    }
+    .sign-up-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 80%;
+        font-size: 150%;
+    }
+    .how-width{
+        width: 70%;
+        margin: 0px auto;
+    }
+}
+@media(max-width:1180px){
+    .cities{
+        font-size: 70%;
+    }
+}
+@media(max-width:560px){
+    .card{
+        font-size: 120%;
+    }
+    .cities{
+        font-size: 50%;
+    }
+}
+@media(max-width:480px){
+    .cities{
+        font-size: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      position: fixed;
+      margin-top: 0px;
+      margin-right: 20px;
+    }
+  
+    .menu-toggle {
+      display: flex;
+      float: right;
+    }
+  
+    .menu.active {
+      display:flex;
+      gap: 20px;
+      text-align: right;
+    }
+  }
+  
